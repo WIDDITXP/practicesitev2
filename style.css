@@ -1,0 +1,143 @@
+@font-face {
+    font-family: "silkscreen-r";
+    src: url(silkscreen\Silkscreen-Regular.ttf);
+}
+
+@font-face {
+    font-family: "silkscreen-b";
+    src: url();
+}
+
+@font-face {
+    font-family: "";
+    src: url(silkscreen\Silkscreen-Bold.ttf);
+}
+
+@font-face {
+    font-family: "";
+    src: url();
+}
+
+@font-face {
+    font-family: "";
+    src: url();
+}
+
+
+html {
+    margin: 0;
+    padding: 0;
+    background: black;
+    color: white;
+}
+
+body {
+    text-align: center;
+    margin: 0; 
+}
+
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100px;
+    background:white;
+    position: fixed;
+}
+
+.corner-logo {
+    width: 30%;
+    float: left;
+    text-align: left;
+    line-height: 100px;
+    margin-left: 12px;
+}
+
+.corner-logo a {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    letter-spacing: 4px;
+}
+
+nav {
+    float: right;
+    line-height: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 4px;
+    font-size: 20px;
+    padding: 36px 10px;
+    margin: 0 1px;
+}
+
+nav a:hover {
+    background: black;
+    color: white;
+    opacity: .6;
+}
+
+.banner {
+    background-image:url(widdit.JPEG);
+    background-size: cover;
+    background-position: center;
+    top: 100px;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+}
+
+.banner:after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.banner h2 {
+    padding-top: 4%;
+    font-size: 60px;
+}
+
+.banner p {
+    margin-top: 0px;
+    font-size: 30px;
+}
+
+.about {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.content {
+    display: gird; 
+    width: 100%;
+    height: 800px;
+    position: fixed;
+    background: black;
+    top: 500px;
+}
+
+.content h2 {
+    font-size: 40px;
+    margin: 0;
+    padding-top: 30px;
+    letter-spacing: 4px;
+}
+
+.content p {
+    font-size: 18px;
+    padding: 2% 0;
+    line-height: 30px;
+    text-align: justify;
+}
+
