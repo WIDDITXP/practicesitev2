@@ -111,19 +111,18 @@ nav a:hover {
 }
 
 .about {
-    
+    grid-area: 1 / 2 / 1 / span 1; 
 }
 
 .selfpic {
-
+    grid-area: 1 / 1 / 1 / span 1;
 }
 
 .content h2 {
     font-family: "Orbitron", sans-serif;
     font-weight: 700;
     font-size: 40px;
-    margin: 0;
-    padding-top: 30px;
+    margin: 30px 0 0 0;
     letter-spacing: 4px;
 }
 
@@ -135,5 +134,9 @@ nav a:hover {
 }
 
 .selfpic img {
-    height: 200px;
+    margin: 50px 0 0 0;
+    padding: 8px;
+    height: 300px;
+    border: 2px solid white;
+    border-radius: 5px;
 }
